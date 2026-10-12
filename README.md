@@ -43,7 +43,7 @@ Learnova AI is a student-focused academic workspace that combines course managem
 ## Project Structure
 
 ```text
-studyhub_ai/
+learnova_ai/
 ├── backend/
 │   ├── main.py
 │   ├── models.py

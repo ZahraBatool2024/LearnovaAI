@@ -1,0 +1,28 @@
+fastapi
+python-dotenv
+uvicorn[standard]
+sqlalchemy
+python-multipart
+pydantic[email]
+requests
+apscheduler
+python-dateutil
+faiss-cpu
+scikit-learn
+numpy
+pypdf
+python-docx
+python-pptx
+streamlit>=1.32
+streamlit-calendar
+
+# Auth
+pyjwt
+bcrypt
+
+# Optional: enables real semantic embeddings for RAG instead of the
+# hashing-vectorizer fallback. Needs a one-time model download (~90MB),
+# then works fully offline.
+# sentence-transformers
+
+# psycopg2-binary   # uncomment when moving DATABASE_URL to PostgreSQL
